@@ -1,0 +1,30 @@
+String to an int in java using Integer.parseInt() method.
+
+
+EXAMPLE 1
+-------
+public class StringToIntExample1{  
+public static void main(String args[]){  
+//Declaring String variable  
+String s="200";  
+//Converting String into int using Integer.parseInt()  
+int i=Integer.parseInt(s);  
+//Printing value of i  
+System.out.println(i);          //200
+}} 
+
+USING Java String to Integer Example: Integer.valueOf()
+
+Example
+--------
+public class StringToIntegerExample2{  
+public static void main(String args[]){  
+//Declaring a string  
+String s="200";  
+//converting String into Integer using Integer.valueOf() method  
+Integer i=Integer.valueOf(s);  
+System.out.println(i);        //200 
+}}        
+
+
+
