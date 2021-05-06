@@ -1,0 +1,43 @@
+Java Convert int to String
+We can convert int to String in java using String.valueOf() and Integer.toString() methods. Alternatively, we can use String.format() method, string concatenation operator etc.
+
+1) String.valueOf()
+--------------------
+public class IntToStringExample1{  
+public static void main(String args[]){  
+int i=200;  
+String s=String.valueOf(i);  
+System.out.println(i+100);//300 because + is binary plus operator  
+System.out.println(s+100);//200100 because + is string concatenation operator  
+}}  
+
+Output:
+300
+200100
+
+
+2) Integer.toString()
+-----------------------
+public class IntToStringExample2{  
+public static void main(String args[]){  
+int i=200;  
+String s=Integer.toString(i);  
+System.out.println(i+100);//300 because + is binary plus operator  
+System.out.println(s+100);//200100 because + is string concatenation operator  
+}}  
+
+Output:
+300
+200100
+
+3) String.format()
+-----------------------
+public class IntToStringExample3{  
+public static void main(String args[]){  
+int i=200;  
+String s=String.format("%d",i);  
+System.out.println(s);  
+}}  
+
+Output:
+200
