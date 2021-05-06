@@ -1,0 +1,19 @@
+Java String to Date
+We can convert String to Date in java using parse() method of DateFormat and SimpleDateFormat classes.
+
+1.Java String to Date Example
+------------------------------
+import java.text.SimpleDateFormat;  
+import java.util.Date;  
+public class StringToDateExample1 {  
+public static void main(String[] args)throws Exception {  
+    String sDate1="06/05/2021";  
+    Date date1=new SimpleDateFormat("dd/MM/yyyy").parse(sDate1);  
+    System.out.println(sDate1+"\t"+date1);  
+}  
+}  
+
+
+OUTPUT
+-------
+06/05/2021	Thu May 06 00:00:00 IST 2021
