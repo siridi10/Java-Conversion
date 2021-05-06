@@ -1,0 +1,37 @@
+Java Convert float to String
+We can convert float to String in java using String.valueOf() and Float.toString() methods.
+1) String.valueOf()
+--------------------
+public class FloatToStringExample1 {
+    public static void main(String[] args) {
+        Float f1=9876f;
+        System.out.println("1. "+f1+" Converted to String = "+f1.toString());
+        Float f2=1001f;
+        System.out.println("2. "+f2+" Converted to String = "+f2.toString());
+        String f3=f1.toString()+f2.toString();
+        System.out.println("3. Concatenated String = "+f3);
+    }
+}
+
+Output
+---------
+1. 9876.0 Converted to String = 9876.0
+2. 1001.0 Converted to String = 1001.0
+3. Concatenated String = 9876.01001.0
+
+
+
+
+
+2) Float.toString()
+-------------------
+public class FloatToStringExample2{  
+public static void main(String args[]){  
+float f=89.7F;  
+String s=Float.toString(f);  
+System.out.println(s);  
+}}  
+
+output
+------
+89.7
