@@ -1,0 +1,28 @@
+Java Convert double to String
+We can convert double to String in java using String.valueOf() and Double.toString() methods.
+
+1) String.valueOf()
+---------------------
+public class DoubleToStringExample1{  
+public static void main(String args[]){  
+double d=12.3;  
+String s=String.valueOf(d);  
+System.out.println(s);  
+}}  
+
+Output:
+12.3
+
+
+2) Double.toString()
+--------------------
+public class DoubleToStringExample2{  
+public static void main(String args[]){  
+double d=89.7;  
+String s=Double.toString(d);  
+System.out.println(s);  
+}}  
+
+Output:
+89.7
+
