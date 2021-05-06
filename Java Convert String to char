@@ -1,0 +1,13 @@
+We can convert String to char in java using charAt() method of String class
+
+
+public class StringToCharExample1{  
+public static void main(String args[]){  
+String s="siridi";  
+char c=s.charAt(3);//returns h  
+System.out.println("1st character is: "+c);  
+}}  
+Test it Now
+Output:
+
+1st character is: i
