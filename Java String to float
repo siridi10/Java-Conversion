@@ -1,0 +1,11 @@
+Java String to float
+We can convert String to float in java using Float.parseFloat() method.
+public class StringToFloatExample{  
+public static void main(String args[]){  
+String s="23.6";  
+float f=Float.parseFloat("23.6");  
+System.out.println(f+1.2);  
+}}  
+
+output
+24.800000381469726
