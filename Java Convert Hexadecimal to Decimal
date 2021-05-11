@@ -1,0 +1,16 @@
+We can convert hexadecimal to decimal in java using Integer.parseInt() method or custom logic.
+Java Hexadecimal to Decimal conversion: Integer.parseInt()
+The Integer.parseInt() method converts string to int with given redix. The signature of parseInt() method is given below:
+
+public static int parseInt(String s,int redix)  
+
+
+public class HexToDecimalExample1{  
+public static void main(String args[]){  
+String hex="a";  
+int decimal=Integer.parseInt(hex,16);  
+System.out.println(decimal);  
+}}  
+
+Output:
+10
