@@ -1,0 +1,20 @@
+Java Convert Decimal to Binary
+We can convert decimal to binary in java using Integer.toBinaryString() method or custom logic.
+
+Java Decimal to Binary conversion: Integer.toBinaryString()
+-----------------------------------------------------------
+The Integer.toBinaryString() method converts decimal to binary string. The signature of toBinaryString() method is given below:
+
+public static String toBinaryString(int decimal)
+
+public class DecimalToBinaryExample1{  
+public static void main(String args[]){  
+System.out.println(Integer.toBinaryString(10));  
+System.out.println(Integer.toBinaryString(21));  
+System.out.println(Integer.toBinaryString(31));  
+}}  
+
+Output:
+1010
+10101
+11111
