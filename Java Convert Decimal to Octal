@@ -1,0 +1,19 @@
+We can convert decimal to octal in java using Integer.toOctalString() method or custom logic.
+
+Java Decimal to Octal conversion: Integer.toOctalString()
+The Integer.toOctalString() method converts decimal to octal string. The signature of toOctalString() method is given below:
+
+public static String toOctalString(int decimal)  
+Let's see the simple example of converting decimal to octal in java.
+
+public class DecimalToOctalExample1{  
+public static void main(String args[]){  
+System.out.println(Integer.toOctalString(8));  
+System.out.println(Integer.toOctalString(19));  
+System.out.println(Integer.toOctalString(81));  
+}}  
+
+Output:
+10
+23
+121
