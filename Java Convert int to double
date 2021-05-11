@@ -1,0 +1,17 @@
+Java Convert int to double
+We can convert int to double in java using assignment operator. There is nothing to do extra because lower type can be converted to higher type implicitly.
+
+Java int to Double Example
+--------------------------
+public class IntToDoubleExample2{  
+public static void main(String args[]){  
+int i=100;  
+Double d= new Double(i);//first way  
+Double d2=Double.valueOf(i);//second way  
+System.out.println(d);  
+System.out.println(d2);  
+}}  
+
+Output:
+100.0
+100.0
