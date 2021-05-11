@@ -1,0 +1,19 @@
+We can convert decimal to hexadecimal in java using Integer.toHexString() method or custom logic.
+
+Java Decimal to Hex conversion: Integer.toHexString()
+The Integer.toHexString() method converts decimal to hexadecimal. The signature of toHexString() method is given below:
+
+public static String toHexString(int decimal)  
+
+public class DecimalToHexExample1{  
+public static void main(String args[]){  
+System.out.println(Integer.toHexString(10));  
+System.out.println(Integer.toHexString(15));  
+System.out.println(Integer.toHexString(289));  
+}}  
+
+
+Output:
+a
+f
+121
