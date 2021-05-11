@@ -1,0 +1,17 @@
+We can convert binary to decimal in java using Integer.parseInt() method or custom logic.
+
+Java Binary to Decimal conversion: Integer.parseInt()
+-----------------------------------------------------
+The Integer.parseInt() method converts string to int with given redix. The signature of parseInt() method is given below:
+
+public static int parseInt(String s,int redix)  
+
+public class BinaryToDecimalExample1{  
+public static void main(String args[]){  
+String binaryString="1010";  
+int decimal=Integer.parseInt(binaryString,2);  
+System.out.println(decimal);  
+}}  
+
+Output:
+10
