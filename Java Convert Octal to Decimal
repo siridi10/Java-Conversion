@@ -1,0 +1,17 @@
+We can convert octal to decimal in java using Integer.parseInt() method or custom logic.
+
+Java Octal to Decimal conversion: Integer.parseInt()
+The Integer.parseInt() method converts a string to an int with the given radix. If you pass 8 as a radix, it converts an octal string into decimal. Let us see the signature of parseInt() method:
+
+public static int parseInt(String s,int radix)  
+Let's see the simple example of converting octal to decimal in java.
+ 
+public class OctalToDecimalExample1{  
+public static void main(String args[]){  
+String octalString="121";  
+int decimal=Integer.parseInt(octalString,8);  
+System.out.println(decimal);  
+}}  
+
+Output:
+81
