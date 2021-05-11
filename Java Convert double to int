@@ -1,0 +1,15 @@
+Java Convert double to int
+We can convert double to int in java using typecasting. To convert double data type into int, we need to perform typecasting.
+
+
+Java Double to int Example: intValue() method
+---------------------------------------------
+public class DoubleToIntExample2{  
+public static void main(String args[]){  
+Double d=new Double(10.5);  
+int i=d.intValue();  
+System.out.println(i);  
+}}  
+
+Output:
+10
