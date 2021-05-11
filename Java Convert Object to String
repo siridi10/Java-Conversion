@@ -1,0 +1,36 @@
+Java Convert Object to String
+We can convert Object to String in java using toString() method of Object class or String.valueOf(object) method.
+
+Java Object to String Example: Converting User-defined class
+------------------------------------------------------------
+class Emp{}  
+public class ObjectToStringExample{  
+public static void main(String args[]){  
+Emp e=new Emp();  
+String s=e.toString();  
+String s2=String.valueOf(e);  
+System.out.println(s);  
+System.out.println(s2);  
+}}  
+
+Output:
+Emp@2a139a55
+Emp@2a139a55
+
+
+Java Object to String Example: Converting StringBuilder
+-------------------------------------------------------
+public class ObjectToStringExample2{  
+public static void main(String args[]){  
+String s="hello";  
+StringBuilder sb=new StringBuilder(s);  
+sb.reverse();  
+String rev=sb.toString();//converting StringBuilder to String  
+System.out.println("String is: "+s);  
+System.out.println("Reverse String is: "+rev);  
+}}  
+
+
+Output:
+String is: hello
+Reverse String is: olleh
